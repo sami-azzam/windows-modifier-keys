@@ -1,10 +1,10 @@
 {
-  "name": "control-modifier-keys",
-  "version": "1.0.3",
+  "name": "windows-modifier-keys",
+  "version": "1.0.4",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VanBerlo/control-modifier-keys.git"
+    "url": "https://github.com/sami-azzam/windows-modifier-keys.git"
   },
   "description": "Control Caps, Num & Scroll lock from NodeJS",
   "keywords": [
@@ -22,9 +22,9 @@
   ],
   "main": "src/index.js",
   "author": {
-    "name": "Bart Versteeg // VanBerlo",
-    "email": "b.versteeg@vanberlo.nl",
-    "url": "https://www.vanberlo.nl"
+    "name": "Sami Azzam",
+    "email": "samiazzam2@gmail.com",
+    "url": "https://www.samiazm.com"
   },
   "scripts": {
     "example": "node example/example.js"
