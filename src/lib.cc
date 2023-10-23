@@ -1,3 +1,4 @@
+#ifdef BUILD_FOR_WINDOWS
 #include <napi.h>
 #include <windows.h>
 #include <iostream>
@@ -95,3 +96,4 @@ Napi::Object Init(Napi::Env env, Napi::Object exports)
 }
 
 NODE_API_MODULE(control_modifiers, Init)
+#endif
